@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.header {
+  background-color: #111111;
+  margin: 0;
+  color: #e6e3e3;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  width: 140px;
+  height: 35px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.transparent {
+  background-color: transparent;
+  color: #e6e3e3;
+  border: 1px solid #e6e3e3;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  font-size: 32px;
+  text-align: left;
+  font-weight: bolder;
+  padding: 15px 100px 0px;
+  margin: inherit;
+}
+.header-text {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  font-weight: lighter;
+  padding-left: 100px;
+  padding-bottom: 60px;
+  height: 393px;
+}
+.header-text div {
+  width: 50%;
+}
+.header-text h2 {
+  font-size: 45px;
+  font-weight: lighter;
+}
+.header-text p {
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.img-header {
+  background-image: url("https://www.nicepng.com/png/full/124-1248440_platos-de-comida-png-lomo-saltado-en-png.png");
+  background-position: 192px -166px;
+  background-repeat: no-repeat;
+  background-size: 175%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  background-color: #111111;
+  color: #e6e3e3;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+.text-footer-container {
+  display: flex;
+  font-size: 14px;
+}
+.text-footer {
+  padding: 0 100px;
+}
+.place {
+  height: 100px;
+  background-color: #e6e3e3;
 }
