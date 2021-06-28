@@ -1,8 +1,11 @@
 
 
-const Button = () => {
+const Button = ( props ) => {
+    const {text, color, backgroundColor, border, onClick} = props
     return (
-    <button className='btn transparent'> BOOK A TABLE </button>
+    <button style={{color: color, backgroundColor: backgroundColor, border:border}}
+            className='btn'
+            onClick={onClick} >{text}</button>
     )
 }
 
