@@ -2,7 +2,10 @@
 import Button from "./Button"
 const Banner = () => {
     return (
-        <section>
+        <section className='banner'>
+            <div className='banner-text'>
+                <p>Ready to make a reservation?</p>
+            </div>
             <Button/>
         </section>
     )
