@@ -1,10 +1,9 @@
 
-
-const MiniCard = ({text, title, img}) => {
+const MiniCard = ({text, title, img, color}) => {
     return (
-        <div>
+        <div className='mini-card' style={{color:color}}>
             <img src={img}/>
-            <div mini-card-text>
+            <div className='mini-card-text'>
                 <h6>{title}</h6>
                 <p>{text}</p>
             </div>
