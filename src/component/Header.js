@@ -23,7 +23,7 @@ const Header = () => {
                      onClick={onClick}/>
                 </div>
                 <div className='img-header'>
-                    <img alt='food' />
+                    
                 </div>   
             </div>
 
