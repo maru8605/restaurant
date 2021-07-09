@@ -13,7 +13,8 @@ const Form = () => {
                     color='#ffffff'
                     title='The moust locally source a food'
                     text=' All our ingredients come directly from our farm or locally fishery. So you can be sure that 
-                    you´re eating the fresh, most sustainable food ' />   
+                    you´re eating the fresh, most sustainable food. All our ingredients come directly from our farm or locally fishery. So you can be sure that 
+                    you´re eating the fresh, most sustainable food, etc.  ' />   
                 <form className='form'>
                     <div>
                         <input

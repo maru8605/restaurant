@@ -3,6 +3,10 @@
   margin: 0;
   color: #e6e3e3;
   padding-left: 90px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  min-height: 650px;
 }
 .btn {
   width: 140px;
@@ -24,19 +28,16 @@
 .header-text div {
   width: 50%;
 }
-.header-text h2 {
-  font-size: 45px;
-  font-weight: lighter;
-}
-.header-text p {
-  font-size: 15px;
-}
 
-.img-header {
-  background-image: url("https://www.nicepng.com/png/full/124-1248440_platos-de-comida-png-lomo-saltado-en-png.png");
-  background-position: 192px -166px;
+.img-header img {
+  width: 300px;
   background-repeat: no-repeat;
-  background-size: 175%;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
 }
 
 .footer {
@@ -156,7 +157,7 @@
 }
 .form-container {
   background-color: #e6e3e3;
-  min-height: 700px;
+  min-height: 650px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -261,7 +262,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 90px;
+  margin-top: 130px;
   position: relative;
   z-index: 2;
 }
