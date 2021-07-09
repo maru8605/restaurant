@@ -5,10 +5,12 @@ import Footer from './component/Footer';
 import Place from './component/Place';
 import Banner from './component/Banner';
 import Menu from './component/Menu';
+import Form from './component/Form';
 function App() {
   return (
     <div className="App">
      <Header/>
+     <Form/>
      <Place/>
      <Menu/>
      <Banner src={ImgBanner2}/>

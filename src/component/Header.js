@@ -8,7 +8,8 @@ const Header = () => {
 
     return (
         <section className='header'>
-            <Logo/>
+            <Logo
+            color='#ffffff'/>
             <div className='header-text'>
                 <div>
                     <h2>Exquisite dining since 1989</h2>

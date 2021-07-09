@@ -6,6 +6,7 @@ const Banner = () => {
             <div className='banner-text'>
                 <p>Ready to make a reservation?</p>
             </div>
+            <div className='btn-banner'>
             <Button
             color='#e6e6e6' 
             backgroundColor='transparent'
@@ -13,6 +14,7 @@ const Banner = () => {
             text='BOOK A TABLE'
             // onClick={onClick}
             />
+            </div>
         </section>
     )
 }

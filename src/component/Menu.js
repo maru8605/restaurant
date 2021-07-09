@@ -14,17 +14,22 @@ const Menu = () => {
              diner´s favourites. Our menu is revamped every season'
              className='text-card'/>
             <div>
-               <MiniCard
-                img={Food1}
-                title='Seared Salmon Filled'
-                text='Our locally sourced salmon served with a refreshing buckweat summer salad'
-                color='#ffffff'
-                />
-               <MiniCard
-               img={Food2}
-               title='Rosemary Fillet Mignon'
-               text='Our locally sourced salmon served with a refreshing buckweat summer salad'
-               color='#ffffff'/> 
+                <div className='border'>
+                <MiniCard
+                    img={Food1}
+                    title='Seared Salmon Filled'
+                    text='Our locally sourced salmon served with a refreshing buckweat summer salad'
+                    color='#ffffff' 
+                    />
+                </div>
+                <div className='border'>
+                    <MiniCard
+                    img={Food2}
+                    title='Rosemary Fillet Mignon'
+                    text='Our locally sourced salmon served with a refreshing buckweat summer salad'
+                    color='#ffffff'
+                    /> 
+               </div>
                <MiniCard
                img={Food3}
                title='Summer Fruit chocolate Mouse '

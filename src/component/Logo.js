@@ -1,7 +1,7 @@
 
 
-const Logo = () => {
-    return <p className='logo'> Dine. </p>
+const Logo = ({color}) => {
+    return <p className='logo' style={{color:color}}> Dine. </p>
        
    
 }
