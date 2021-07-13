@@ -1,13 +1,17 @@
-import { useState } from "react"
+// import { useState } from "react"
+import { useForm } from "react-hook-form";
 import Logo from "./Logo"
 import TextCard from "./TextCard"
 
+
 const Form = () => {
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [day, setDay] = useState('')
-    const [month, setMonth] = useState('')
-    const [year, setYear]= useState('')
+    // const [name, setName] = useState('')
+    // const [email, setEmail] = useState('')
+    // const [day, setDay] = useState('')
+    // const [month, setMonth] = useState('')
+    // const [year, setYear]= useState('')
+ 
+
 
     return (
         <div className='form-container'>
@@ -22,7 +26,7 @@ const Form = () => {
                     text=' All our ingredients come directly from our farm or locally fishery. So you can be sure that 
                     you´re eating the fresh, most sustainable food. All our ingredients come directly from our farm or locally fishery. So you can be sure that 
                     you´re eating the fresh, most sustainable food, etc.  ' />   
-                <form className='form'>
+                {/* <form className='form'>
                     <div>
                         <input
                         className='form-input'
@@ -104,7 +108,7 @@ const Form = () => {
                         </select>
                     </div>
                     <input type='submit' className='form-button' value='MAKE RESERVATION'/>
-                    </form> 
+                    </form>  */}
             </div>
         </div>
     )
