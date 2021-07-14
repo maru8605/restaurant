@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/restaurant/static/css/main.464b0843.chunk.css",
+    "main.js": "/restaurant/static/js/main.f42328ae.chunk.js",
+    "main.js.map": "/restaurant/static/js/main.f42328ae.chunk.js.map",
+    "runtime-main.js": "/restaurant/static/js/runtime-main.1b16cd67.js",
+    "runtime-main.js.map": "/restaurant/static/js/runtime-main.1b16cd67.js.map",
+    "static/js/2.3558a107.chunk.js": "/restaurant/static/js/2.3558a107.chunk.js",
+    "static/js/2.3558a107.chunk.js.map": "/restaurant/static/js/2.3558a107.chunk.js.map",
+    "static/js/3.87950142.chunk.js": "/restaurant/static/js/3.87950142.chunk.js",
+    "static/js/3.87950142.chunk.js.map": "/restaurant/static/js/3.87950142.chunk.js.map",
+    "index.html": "/restaurant/index.html",
+    "static/css/main.464b0843.chunk.css.map": "/restaurant/static/css/main.464b0843.chunk.css.map",
+    "static/js/2.3558a107.chunk.js.LICENSE.txt": "/restaurant/static/js/2.3558a107.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/restaurant/static/media/bg-form.9e657e48.jpg",
+    "static/media/banner2.ae07074f.jpg": "/restaurant/static/media/banner2.ae07074f.jpg",
+    "static/media/bosque.e00b793f.jpg": "/restaurant/static/media/bosque.e00b793f.jpg",
+    "static/media/food1.c3b61f7e.jpg": "/restaurant/static/media/food1.c3b61f7e.jpg",
+    "static/media/food2.de0db397.jpg": "/restaurant/static/media/food2.de0db397.jpg",
+    "static/media/food3.09a95f17.jpg": "/restaurant/static/media/food3.09a95f17.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b16cd67.js",
+    "static/js/2.3558a107.chunk.js",
+    "static/css/main.464b0843.chunk.css",
+    "static/js/main.f42328ae.chunk.js"
+  ]
+}
