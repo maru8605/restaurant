@@ -5,13 +5,14 @@ import Footer from './component/Footer';
 import Place from './component/Place';
 import Banner from './component/Banner';
 import Menu from './component/Menu';
-import Form from './component/Form';
+// import AddReservation from './component/AddReservation';
+// import ReservationForm from './component/ReservationForm';
 function App() {
   
   return (
     <div className="App">
      <Header/>
-     <Form/>
+     {/* <ReservationForm/> */}
      <Place/>
      <Menu/>
      <Banner src={ImgBanner2}/>
